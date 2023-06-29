@@ -1,0 +1,129 @@
+body {
+    margin: 0 ;
+    padding: 0 ;
+}
+/*======global css start=====*/
+.w-100-bg {
+    width: 100% ;
+    height: 500px ;
+}
+.w-25 {
+    width:25%;
+    height:500px;
+    float:left;
+    overflow:hidden;
+    box-sizing:border-box;
+}
+.w-50 {
+    width:50%;
+    float:left;
+    overflow:hidden;
+    box-sizing:border-box;
+    height:500px;
+}
+.w-75 {
+    width:75%;
+    height:500px;
+    float:left;
+    box-sizing: border-box;
+    height:500px;
+}
+.img-size {
+    width:200px;
+    height: 200px;
+    float:left;
+    margin-right: 8px;
+}
+
+/*======global css end=====*/
+
+/*======football area start====*/ 
+.football-area {
+    overflow:hidden;
+    text-align:justify;
+    color:rgb(0, 0, 0)
+}
+.football-area .w-100-bg {
+    /* background-color:aqua;
+    background-image:url("/img/sec-img/football-girl.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position: bottom right;
+    background-size: cover; */
+    background: url("../img/bg-img/bg-2.jpg") no-repeat fixed 0 0 / cover;
+}
+.football-area .football-child {
+    width:100%;
+}
+.football-area .football-child .w-25{
+    background-color:rgba(104, 109, 224, 0.5);
+}
+.football-area .football-child .w-50{
+    background-color:rgba(199, 236, 238, 0.5);
+}
+.football-area .football-child .w-25{
+    background-color:rgba(190, 46, 221, 0.5);
+}
+.one {
+    padding:5px;
+}
+.two {
+    padding:5px;
+}
+.three {
+    padding:5px;
+}
+/*======football area end====*/ 
+
+/*=======doc are start====*/
+.doc-main-area {
+    overflow:hidden;
+    text-align:justify;
+    color:rgb(0, 0, 0)
+}
+.doc-main-area .w-100-bg {
+    background:url("../img/bg-img/bg-1.jpg") no-repeat scroll 0 0 / cover  ;
+}
+.doc-main-area .doc-child {
+
+}
+.doc-main-area .doc-child .w-75 {
+    background-color: rgba(255, 159, 67,.5);
+    float:left;
+    box-sizing: border-box;
+}
+.doc-main-area .doc-child .w-25 {
+    background-color: rgba(72, 219, 251,1);
+    overflow:hidden;
+}
+.child-one {
+    width:29%;
+    height: 500px;
+    float:left;
+    background-color: rgba(95, 39, 205,1.0);
+    padding: 5px;
+    text-align: center;
+}
+.child-two {
+    width:39%;
+    height: 500px;
+    float:left;
+    background-color: rgba(84, 160, 255,1.0);
+    padding: 5px;
+    text-align: center;
+}
+.child-three {
+    width:29%;
+    height: 500px;
+    float:left;
+    background-color: rgba(254, 202, 87,1.0);
+    padding: 5px;
+    text-align: center;
+}
+.w-25 > p {
+    padding : 5px;
+}
+.w-25 > h1 {
+    overflow:hidden;
+}
+/*=======doc are start====*/
